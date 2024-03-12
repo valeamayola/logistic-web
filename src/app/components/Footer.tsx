@@ -6,15 +6,15 @@ export default function Footer() {
   return (
     <footer className="footer p-10 bg-slate-100 text-base-content">
       <aside>
-        <a className="btn btn-ghost text-xl text-orange-700 font-bold hover:bg-transparent" href="/">Logistic<FontAwesomeIcon className="w-5 text-orange-700 font-bold" icon={faTruckFast} /></a>
+        <a className="btn btn-ghost text-xl text-orange-700 font-bold hover:bg-transparent" href="/">Galvez SRL</a>
       </aside>
       <nav>
         <h6 className="footer-title">Servicios</h6>
-        <Link href="/services#almacenamiento" className="link link-hover">Almacenamiento</Link>
-        <Link href="/services#distribucion" className="link link-hover">Distribución</Link>
-        <Link href="/services#picking-and-packing" className="link link-hover">Picking & Packing</Link>
-        <Link href="/services#gestion-de-inventario" className="link link-hover">Gestión de inventario</Link>
-        <Link href="/services#logistica-inversa" className="link link-hover">Logística inversa</Link>
+        <Link href="/services#almacenamiento" className="link link-hover">Construcción de casas a medida</Link>
+        <Link href="/services#distribucion" className="link link-hover">Construcción de edificios</Link>
+        <Link href="/services#picking-and-packing" className="link link-hover">Construcción de proyectos comerciales</Link>
+        <Link href="/services#gestion-de-inventario" className="link link-hover">Reformas y ampliaciones</Link>
+        <Link href="/services#logistica-inversa" className="link link-hover">Asesoramiento y gestión de proyectos</Link>
       </nav>
       <nav>
         <h6 className="footer-title">Navegación</h6>
