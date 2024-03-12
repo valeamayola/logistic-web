@@ -10,17 +10,17 @@ export default function Footer() {
       </aside>
       <nav>
         <h6 className="footer-title">Servicios</h6>
-        <Link href="/services#almacenamiento" className="link link-hover">Construcción de casas a medida</Link>
-        <Link href="/services#distribucion" className="link link-hover">Construcción de edificios</Link>
-        <Link href="/services#picking-and-packing" className="link link-hover">Construcción de proyectos comerciales</Link>
-        <Link href="/services#gestion-de-inventario" className="link link-hover">Reformas y ampliaciones</Link>
-        <Link href="/services#logistica-inversa" className="link link-hover">Asesoramiento y gestión de proyectos</Link>
+        <Link href="/" className="link link-hover">Construcción de casas a medida</Link>
+        <Link href="/" className="link link-hover">Construcción de edificios</Link>
+        <Link href="/" className="link link-hover">Construcción de proyectos comerciales</Link>
+        <Link href="/" className="link link-hover">Reformas y ampliaciones</Link>
+        <Link href="/" className="link link-hover">Asesoramiento y gestión de proyectos</Link>
       </nav>
       <nav>
         <h6 className="footer-title">Navegación</h6>
-        <Link href="/about" className="link link-hover">Sobre nosotros</Link>
-        <Link href="/services" className="link link-hover">Servicios</Link>
-        <Link href="/faq" className="link link-hover">FAQ</Link>
+        <Link href="/" className="link link-hover">Sobre nosotros</Link>
+        <Link href="/" className="link link-hover">Servicios</Link>
+        <Link href="/" className="link link-hover">FAQ</Link>
         <a className="link link-hover">Contacto</a>
       </nav>
       <nav>
