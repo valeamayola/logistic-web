@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 const poppins = Poppins({ subsets: ["latin"], weight: ['400', '500', '600', '700', '800', '900'] });
 
 export const metadata: Metadata = {
-  title: "Logistic",
-  description: "Centro de logística y distribución",
+  title: "Galvez SRL",
+  description: "Empresa constructora líder en la región",
 };
 
 export default function RootLayout({
@@ -20,7 +20,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <link rel="icon" href="/icon.svg" />
       <body className={poppins.className}>
         <NavBar />
         {children}
