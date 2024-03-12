@@ -19,13 +19,13 @@ export default function NavBar() {
                             <Link href="/">Inicio</Link>
                         </li>
                         <li>
-                            <Link href="/about">Sobre nosotros</Link>
+                            <Link href="/">Sobre nosotros</Link>
                         </li>
                         <li>
-                            <Link href="/services">Servicios</Link>
+                            <Link href="/">Servicios</Link>
                         </li>
                         <li>
-                            <Link href="/faq">FAQ</Link>
+                            <Link href="/">FAQ</Link>
                         </li>
                         </ul>
                     </div>
@@ -38,13 +38,13 @@ export default function NavBar() {
                             <Link href="/">Inicio</Link>
                         </li>
                         <li>
-                            <Link href="/about">Sobre nosotros</Link>
+                            <Link href="/">Sobre nosotros</Link>
                         </li>
                         <li>
-                            <Link href="/services">Servicios</Link>
+                            <Link href="/">Servicios</Link>
                         </li>
                         <li>
-                            <Link href="/faq">FAQ</Link>
+                            <Link href="/">FAQ</Link>
                         </li>
                     </ul>
                 </div>
