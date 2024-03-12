@@ -2,9 +2,9 @@ import ServiceImg from "./ServiceImg";
 
 export default function ServicesSection() {
     const img1 = '/constructora-5.jpg';
-    const img2 = '/constructora-2.jpg';
-    const img3 = '/constructora-3.jpg';
-    const img4 = '/constructora-4.jpg';
+    const img2 = '/constructora-7.jpg';
+    const img3 = '/constructora-8.jpg';
+    const img4 = '/constructora-10.jpg';
     const img5 = '/constructora-3.jpg';
 
     return (
