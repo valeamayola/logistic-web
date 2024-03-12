@@ -29,7 +29,7 @@ export default function NavBar() {
                         </li>
                         </ul>
                     </div>
-                    <Link href="/" className="btn btn-ghost text-xl text-orange-700 font-bold hover:bg-transparent">Logistic<FontAwesomeIcon className="w-5 text-orange-700 font-bold" icon={faTruckFast} /></Link>
+                    <Link href="/" className="btn btn-ghost text-xl text-orange-700 font-bold hover:bg-transparent"><img src="/constructora-1.jpg"></></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
