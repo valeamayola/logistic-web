@@ -1,28 +1,28 @@
 import ServiceImg from "./ServiceImg";
 
 export default function ServicesSection() {
-    const img1 = '/service-home-1.jpg';
-    const img2 = '/service-home-2.jpg';
-    const img3 = '/service-home-3.jpg';
-    const img4 = '/service-home-4.jpg';
-    const img5 = '/service-home-5.jpg';
+    const img1 = '/constructora.jpg';
+    const img2 = '/constructora-2.jpg';
+    const img3 = '/constructora-3.jpg';
+    const img4 = '/constructora-4.jpg';
+    const img5 = '/constructora-5.jpg';
 
     return (
         <section className="flex flex-col md:flex-row w-full">
             <div className="flex-1">
-                <ServiceImg href="/services#almacenamiento" backgroundImage={img1} number="01" title="Almacenamiento"/>
+                <ServiceImg href="/services#almacenamiento" backgroundImage={img1} number="01" title="Construcción de casas a medida"/>
             </div>
             <div className="flex-1">
-                <ServiceImg href="/services#distribucion" backgroundImage={img2} number="02" title="Distribución"/>
+                <ServiceImg href="/services#distribucion" backgroundImage={img2} number="02" title="Construcción de edificios"/>
             </div>
             <div className="flex-1">
-                <ServiceImg href="/services#picking-and-packing" backgroundImage={img3} number="03" title="Picking & Packing"/>
+                <ServiceImg href="/services#picking-and-packing" backgroundImage={img3} number="03" title="Construcción de proyectos comerciales"/>
             </div>
             <div className="flex-1">
-                <ServiceImg href="/services#gestion-de-inventario" backgroundImage={img4} number="04" title="Gestión de inventario"/>
+                <ServiceImg href="/services#gestion-de-inventario" backgroundImage={img4} number="04" title="Reformas y ampliaciones"/>
             </div>
             <div className="flex-1">
-                <ServiceImg href="/services#logistica-inversa" backgroundImage={img5} number="05" title="Logística inversa"/>
+                <ServiceImg href="/services#logistica-inversa" backgroundImage={img5} number="05" title="Asesoramiento y gestión de proyectos"/>
             </div>
         </section>
     )
